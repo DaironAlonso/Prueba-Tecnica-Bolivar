@@ -46,7 +46,7 @@ git push origin feature/new-login
 |------------|------------|--------------------------|
 | `git merge main` | Trae TODOS los cambios de main | Contamina la rama con cambios no relacionados |
 | `git rebase main` | Reescribe el historial completo | Trae todos los commits de main, no solo el que necesito |
-| `git cherry-pick` ✅ | Aplica SOLO el commit específico | Es exactamente lo que necesitamos |
+| `git cherry-pick` | Aplica SOLO el commit específico | Es exactamente lo que necesitamos |
 
 ---
 
