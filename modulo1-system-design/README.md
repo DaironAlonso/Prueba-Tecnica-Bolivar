@@ -150,7 +150,7 @@ Esto garantiza:
                     │ Publica eventos
             ┌───────▼────────┐
             │ Message Broker │
-            │ (Kafka/Rabbit) │
+            │    (Rabbit)    │
             └───────┬────────┘
                     │ Consume eventos
             ┌───────▼──────────────┐
@@ -173,6 +173,6 @@ Esto garantiza:
 
             ┌──────────────────────┐
             │   Base de Datos      │
-            │   Oracle / MySQL     │
+            │     Postgres         │
             └──────────────────────┘
 ```
