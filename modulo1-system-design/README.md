@@ -25,8 +25,8 @@ componentes principales:
                      │
           [CORE Transaccional Legado]
 
-[Base de Datos: Oracle/MySQL]
-[Message Broker: Kafka / RabbitMQ]
+[Base de Datos: Postgres]
+[Message Broker: RabbitMQ]
 [Caché: Redis]
 ```
 
@@ -46,7 +46,7 @@ notificaciones. Esto permite:
 ### Patrón 2 — Event-Driven Architecture (Arquitectura Orientada a Eventos)
 **¿Por qué?**
 Las notificaciones (correo/SMS) en creación y renovación de pólizas se
-publican como eventos asíncronos en un Message Broker (Kafka/RabbitMQ).
+publican como eventos asíncronos en un Message Broker (RabbitMQ).
 Esto garantiza:
 - Disponibilidad 24/7 — si el servicio de notificaciones falla, los eventos
   se procesan cuando vuelva
