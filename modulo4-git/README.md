@@ -20,11 +20,6 @@ actualizaciones de `main`.
 # 1. Identificar el hash del commit crítico en main
 git log main --oneline
 
-# Ejemplo de salida:
-# a1b2c3d fix: corregir vulnerabilidad XSS en formulario de login  ← este necesito
-# e4f5g6h feat: agregar nuevo módulo de reportes
-# i7j8k9l refactor: reorganizar estructura de carpetas
-
 # 2. Asegurarse de estar en la rama correcta
 git checkout feature/new-login
 
@@ -69,47 +64,4 @@ git cherry-pick --continue
 
 # O si decides abortar
 git cherry-pick --abort
-```
-
----
-
-## Buenas Prácticas de Versionamiento
-
-### Convención de ramas
-```
-main          → código en producción
-develop       → integración de features
-feature/xxx   → nuevas funcionalidades
-bugfix/xxx    → corrección de bugs
-hotfix/xxx    → correcciones urgentes en producción
-release/xxx   → preparación de versión
-```
-
-### Conventional Commits
-```bash
-feat: agregar endpoint de renovación de pólizas
-fix: corregir validación de póliza individual
-refactor: reorganizar capa de servicios
-docs: actualizar README con ejemplos de uso
-test: agregar pruebas unitarias al servicio de pólizas
-chore: actualizar dependencias
-```
-
-### Flujo de trabajo recomendado
-```bash
-# 1. Siempre crear rama desde develop actualizado
-git checkout develop
-git pull origin develop
-git checkout -b feature/nueva-funcionalidad
-
-# 2. Commits frecuentes y descriptivos
-git add .
-git commit -m "feat: descripción clara del cambio"
-
-# 3. Antes de hacer PR, sincronizar con develop
-git fetch origin
-git rebase origin/develop
-
-# 4. Crear Pull Request con descripción clara
-# 5. Code review obligatorio antes de mergear
 ```

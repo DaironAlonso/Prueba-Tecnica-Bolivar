@@ -8,7 +8,7 @@ por las siguientes razones:
 
 ### Justificación técnica
 
-1. **Dominio y experiencia** — Cuento con más de 2 años de experiencia desarrollando
+1. **Dominio y experiencia** — Cuento con más de 3 años de experiencia desarrollando
    APIs REST con Django, lo que me permite entregar una solución más robusta, limpia
    y bien estructurada en el tiempo disponible.
 
@@ -27,11 +27,6 @@ por las siguientes razones:
 4. **Calidad sobre tecnología** — Preferí entregar código limpio, funcional y bien
    documentado en un lenguaje que domino, antes que código incompleto o con errores
    en un lenguaje menos familiar.
-
-### Nota
-Si soy seleccionado, me comprometo a aprender Spring Boot y Java con el rigor
-necesario para aportar al equipo desde el primer sprint. Los conceptos de
-arquitectura ya están claros — solo es cuestión de trasladarlos al nuevo lenguaje.
 
 ---
 
